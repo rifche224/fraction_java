@@ -1,13 +1,11 @@
 package tp_fraction.projet_fraction;
 
-/**
- * Hello world!
- *
- */
-public class Fraction 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+public class  Fraction {
+	private int num;
+	private int denum;
+	
+	public Fraction(int n, int d) {
+		this.num = n;
+		this.denum = d;
+	}
 }
