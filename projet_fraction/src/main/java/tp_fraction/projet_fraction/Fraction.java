@@ -31,7 +31,8 @@ public class  Fraction {
 		return denum;
 	}
 
-
-	
+	public double getValue() {
+		return (double)this.num / (double)this.denum;
+	}
 	
 }
