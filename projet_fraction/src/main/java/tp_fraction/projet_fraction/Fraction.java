@@ -36,7 +36,7 @@ public class  Fraction {
 	}
 	
 	public String toString() {
-		return "numerateur"+num+"denominateur";
+		return "numerateur"+num+"denominateur"+denum;
 	}
 	
 }
