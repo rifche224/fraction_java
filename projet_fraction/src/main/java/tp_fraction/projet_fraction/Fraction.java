@@ -9,7 +9,7 @@ public class  Fraction {
 		this.denum = d;
 	}
  
-	public void fraction_initial(int n) {
+	public Fraction(int n) {
 		 this.denum=1;
 		 this.num=n;
 	}
@@ -18,17 +18,11 @@ public class  Fraction {
 		return num;
 	}
 
-	public void setNum(int num) {
-		this.num = num;
-	}
-
 	public int getDenum() {
 		return denum;
 	}
 
-	public void setDenum(int denum) {
-		this.denum = denum;
-	}
+	
 
 	
 	
